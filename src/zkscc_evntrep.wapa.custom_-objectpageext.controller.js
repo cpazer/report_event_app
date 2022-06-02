@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/ControllerExtension"],function(e){"use strict";return e.extend("onpremreportevent.custom.ObjectPageExt",{override:{onInit:function(){},onBeforeRendering:function(){}}})});                                                    

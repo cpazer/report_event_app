@@ -1,0 +1,1 @@
+sap.ui.define(["sap/fe/test/ListReport"],function(e){"use strict";var t={actions:{},assertions:{}};return new e({appId:"onpremreportevent",componentId:"TransOrderList",entitySet:"TransOrder"},t)});                                                          

@@ -1,0 +1,2 @@
+sap.ui.require(["sap/fe/test/JourneyRunner","onpremreportevent/test/integration/pages/MainListReport","onpremreportevent/test/integration/pages/MainObjectPage","onpremreportevent/test/integration/OpaJourney"],function(e,t,n,r){"use strict";var e=new e({l+
+aunchUrl:sap.ui.require.toUrl("onpremreportevent")+"/index.html"});e.run({pages:{onTheMainPage:t,onTheDetailPage:n}},r.run)});                                                                                                                                 
