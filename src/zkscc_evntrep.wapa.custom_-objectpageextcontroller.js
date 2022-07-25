@@ -1,2 +1,2 @@
 sap.ui.define([],function(){"use strict";return{createEvent:function(e){var r=sap.ui.getCore().byId("onpremreportevent::TransOrderObjectPage").getController();var t="com.sap.gateway.srvd.zkscctransorder.v0001.createDelay(com.sap.gateway.srvd.zkscctransor+
-der.v0001.TransOrderType)";var n=e.getBinding().getBoundContext();var a={contexts:n,label:"create Event"};r.editFlow.invokeAction(t,a).then(function(e){n.refresh()},function(e){alert("error")})}}});                                                         
+der.v0001.TransOrderType)";var n=e.getBinding().getBoundContext();var a={contexts:n,label:"create Event"};r.editFlow.invokeAction(t,a).then(function(e){n.refresh()},function(e){})}}});                                                                       
